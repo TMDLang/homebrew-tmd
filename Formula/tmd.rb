@@ -1,8 +1,8 @@
 class Tmd < Formula
   desc "Modern parser, CLI, and multi-format music rendering toolkit for TMD"
-  homepage "https://github.com/zonble/TmdSwift"
-  url "https://github.com/zonble/TmdSwift/archive/refs/tags/v0.1.6.tar.gz"
-  sha256 "1e118ae60d82f14732d51c948706da46a0f928be5e0219101bc4e1b9f0368d2b"
+  homepage "https://github.com/TMDLang/TmdSwift"
+  url "https://github.com/TMDLang/TmdSwift/archive/refs/tags/v0.2.1.tar.gz"
+  sha256 "8ab98537e3128b76987ddbe173bb3bafab5761841ce067b374f1e5143d07c947"
   license "MIT"
   head "https://github.com/zonble/TmdSwift.git", branch: "main"
 
