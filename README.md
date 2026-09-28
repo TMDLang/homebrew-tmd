@@ -1,12 +1,12 @@
 # homebrew-tmd
 
-Official Homebrew tap for [TmdSwift](https://github.com/zonble/TmdSwift) (`tmd`).
+Official Homebrew tap for [TmdSwift](https://github.com/TMDLang/TmdSwift) (`tmd`).
 
 ## Installation
 
 ```bash
-brew tap zonble/tmd
-brew tap --trust zonble/tmd  # allow this third-party tap
+brew tap TMDLang/tmd
+brew tap --trust TMDLang/tmd  # allow this third-party tap
 brew install tmd
 ```
 
@@ -14,4 +14,4 @@ If Homebrew refuses to install from an untrusted third-party tap, run `brew tap 
 
 ## Documentation
 
-See the [TmdSwift Repository](https://github.com/zonble/TmdSwift) for usage, examples, language specification, and AI skill integration.
+See the [TmdSwift Repository](https://github.com/TMDLang/TmdSwift) for usage, examples, language specification, and AI skill integration.
