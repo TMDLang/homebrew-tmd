@@ -10,7 +10,7 @@ brew tap --trust TMDLang/tmd  # allow this third-party tap
 brew install tmd
 ```
 
-If Homebrew refuses to install from an untrusted third-party tap, run `brew tap --trust zonble/tmd` and install again.
+If Homebrew refuses to install from an untrusted third-party tap, run `brew tap --trust TMDLang/tmd` and install again.
 
 ## Documentation
 
