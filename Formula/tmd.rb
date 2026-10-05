@@ -4,7 +4,7 @@ class Tmd < Formula
   url "https://github.com/TMDLang/TmdSwift/archive/refs/tags/v0.2.3.tar.gz"
   sha256 "dafff3e32d3af35e1a4917adb7fbfc433a280a766d291850e09423572ad88a0c"
   license "MIT"
-  head "https://github.com/zonble/TmdSwift.git", branch: "main"
+  head "https://github.com/TMDLang/TmdSwift.git", branch: "main"
 
   on_macos do
     depends_on xcode: ["16.0", :build]
