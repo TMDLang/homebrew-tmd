@@ -1,8 +1,8 @@
 class Tmd < Formula
   desc "Modern parser, CLI, and multi-format music rendering toolkit for TMD"
-  homepage "https://github.com/zonble/TmdSwift"
-  url "https://github.com/zonble/TmdSwift/archive/refs/tags/v0.1.6.tar.gz"
-  sha256 "1e118ae60d82f14732d51c948706da46a0f928be5e0219101bc4e1b9f0368d2b"
+  homepage "https://github.com/TMDLang/TmdSwift"
+  url "https://github.com/TMDLang/TmdSwift/archive/refs/tags/v0.2.3.tar.gz"
+  sha256 "dafff3e32d3af35e1a4917adb7fbfc433a280a766d291850e09423572ad88a0c"
   license "MIT"
   head "https://github.com/zonble/TmdSwift.git", branch: "main"
 
@@ -25,5 +25,6 @@ class Tmd < Formula
 
   test do
     assert_match "TMD (Timebase Mark Down)", shell_output("#{bin}/tmd --help")
+    assert_equal "0.2.3", shell_output("#{bin}/tmd --version").strip
   end
 end
